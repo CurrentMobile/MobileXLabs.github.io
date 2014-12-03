@@ -278,6 +278,40 @@ footer {
   text-align: center;
 }
 
+.author-footer {
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+  padding-top:1.5em;
+  padding-bottom:1.5em;
+  margin-top:1.5em;
+  margin-bottom:1.5em;
+  
+  address {
+    font-size:0.9em;
+    max-height:110px;  
+      p {
+          margin:0;
+          margin-left:10px;
+          bottom:0;
+          display:block;
+      }
+
+      img {
+          border-radius: 54px;
+          width: 64px;
+          height: 64px;
+          margin-left:auto;
+          margin-right:auto;
+          display: inline-block;
+          margin-top: 0;
+      }       
+      
+      .follow {
+          margin:1em 0 0;
+      }
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "_highlights";

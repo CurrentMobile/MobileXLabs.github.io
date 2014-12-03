@@ -11,5 +11,15 @@ layout: default
 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
+
+    <footer class=author-footer>
+	    <address>
+	       {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
+	        <p>Written by <strong><a rel="author" href="{{ page.author.url }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong><br>
+	        <span class="muted">{{ page.author.bio }}</span>
+	        </p>
+	    </address>
+	</footer>
+
   </div>
 </article>
