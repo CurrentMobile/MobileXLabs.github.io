@@ -4,12 +4,20 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Welcome to our engineering blog!
 
-### More Information
+### What is this?
 
-A place to include any other types of information that you'd like to include about yourself. 
+This is where the development team at MobileX Labs will post about our code, tools, projects, and more.
 
-### Contact me
+Along with plenty of platform-agnostic content, you can expect to find posts for various languges including Ruby, CoffeeScript (JS), Objective-C, C++, Python.
 
-[email@domain.com](mailto:email@domain.com)
+### What is MobileX Labs?
+
+We're an app solutions company based in Chicago, IL. Our app builder platform allows for people and business to create a fully-native mobile app without writing a single line of code.
+
+Find out more [here](http://mobilexlabs.com).
+
+### Join us!
+
+Interested in joining our team or just want to say "hi"? Shoot us an [email](mailto:engineering@mobilexlabs.com)!
